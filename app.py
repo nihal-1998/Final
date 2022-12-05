@@ -1,5 +1,7 @@
 # Store this code in 'app.py' file
 
+pip install flask
+
 import email
 from sqlite3 import Time
 from telnetlib import NOP
