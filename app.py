@@ -13,10 +13,10 @@ import re
 app = Flask(__name__)
 
 
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'travelbuddy'
+app.config['MYSQL_HOST'] = 'us-cdbr-east-06.cleardb.net'
+app.config['MYSQL_USER'] = 'b13c906fb0d4d4'
+app.config['MYSQL_PASSWORD'] = '671b255c'
+app.config['MYSQL_DB'] = 'heroku_7bdb2e7bc3c1c7e'
 
 mysql = MySQL(app)
 
